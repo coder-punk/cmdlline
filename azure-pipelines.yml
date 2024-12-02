@@ -2,7 +2,7 @@ trigger:
 - main  # Trigger the pipeline when changes are pushed to the main branch
 
 pool:
-  name: 'Pool'  # Use the name of your agent pool
+  name: 'Deadpool'  # Use the name of your agent pool
 
 jobs:
 - job: RunDateCommands
